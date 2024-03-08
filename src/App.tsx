@@ -3,7 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const blah = "Hi";
+
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,6 +21,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          Spencer was here
         </a>
       </header>
     </div>
