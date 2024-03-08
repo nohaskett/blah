@@ -18,6 +18,8 @@ function App() {
         >
           Learn React Spencer was here
         </a>
+
+        <p>Hello</p>
       </header>
     </div>
   );
