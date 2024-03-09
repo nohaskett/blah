@@ -1,14 +1,14 @@
 {
-    "extends": [
-        "react-app",
-        "plugin:prettier/recommended"
-    ],
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
     "prettier/prettier": [
-        "error",
-        {
-            "endOfLine": "auto"
-        }
+      "error",
+      {
+        "endOfLine": "auto"
+      }
     ]
+  }
 }
+
 
 //npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
